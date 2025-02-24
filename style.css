@@ -445,4 +445,111 @@ nav a {
     .container{
         flex-direction: column;
     }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: -40px;
+        font-size: 15px;
+    }
+
+    .banner h2 {
+        color: white;
+        font-family: "Aboreto", sans-serif;
+        margin-top: -300px;
+        font-size: 70px;
+        margin-left: 50px;
+    }
+
+    #tituloPrincipal{
+        display: flex;
+        justify-content: space-around;
+        margin-left: -300px;
+        margin-top: -100px;
+        font-size: 20px;
+    }
+
+    header img {
+        width: 150px;
+        margin-top: 10px;
+    }
+    
+    .sinopse img {
+        margin-top: 50px;
+        width: 200px;
+        margin-left: 50px;
+    }
+    
+    .sinopse h3{
+        background-color: #FE6435;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        width: 140px;
+        border-radius: 7px;
+        margin-left: 400px;
+        margin-top: -300px;
+    }
+    
+    
+    .sinopse p  {
+        background-color: #FE6435;
+        color: white;
+        font-size: 17px;
+        width: 300px;
+        margin-left: 400px;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .carac{
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        margin-top: 200px;
+    }
+    
+    .carac img{
+        width:270px;
+        height: auto;
+        margin-left: -600px;
+        margin-top: 30px;
+    }
+    
+    .carac button{
+        display: flex;
+        background-color:#FE6435;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+     
+    }
+    
+    .bo{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .buttons-column {
+        display: flex;
+        flex-direction: column; /* Organiza os botões em uma coluna */
+        gap: 10px; /* Espaço entre os botões */
+        margin-top: -200px;
+        margin-left: 140px;
+    }
+    
+
+    
 }
