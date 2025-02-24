@@ -515,9 +515,9 @@ nav a {
     }
     
     .carac img{
-        width:270px;
+        width:250px;
         height: auto;
-        margin-left: -600px;
+        margin-left: -500px;
         margin-top: 30px;
     }
     
@@ -539,7 +539,7 @@ nav a {
     
     .bo{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     .buttons-column {
@@ -548,6 +548,70 @@ nav a {
         gap: 10px; /* Espaço entre os botões */
         margin-top: -200px;
         margin-left: 140px;
+    }
+
+    .autora img {
+        margin-top: 50px;
+        width: 200px;
+        margin-left: 50px;
+    }
+    
+    .autora h2{
+        background-color: #FE6435;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        width: 190px;
+        border-radius: 7px;
+        margin-left: 400px;
+        margin-top: -350px;
+    }
+    
+    
+    .autora p  {
+        background-color: #FE6435;
+        color: white;
+        font-size: 17px;
+        width: 300px;
+        margin-left: 400px;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .personagens {
+        background-color: #000000;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+    
+    .personas{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+    
+    }
+    
+    .personas p{
+        color: white;
+    }
+    
+    .personagens img {
+        width: 140px;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column; /* Organiza os botões em uma coluna */
+        gap: 10px; /* Espaço entre os botões */
+        margin-top: -200px;
+        margin-left: 30px;
+        
+    
     }
     
 
